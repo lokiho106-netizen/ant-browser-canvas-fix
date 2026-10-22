@@ -78,7 +78,7 @@ python canvas_fix.py restore --dll "D:\Apps\Ant Browser\chrome\chrome-150\chrome
 - [同版 Windows Canvas 崩溃报告 #95](https://github.com/adryfish/fingerprint-chromium/issues/95)
 - [Ant Browser 项目](https://github.com/black-ant/Ant-Browser)
 
-`ERR_CONNECTION_CLOSED`、代理 TLS 握手失败、网站出口 IP 限制属于另外的排查方向，不能靠这个 Canvas 补丁一并解决。
+`ERR_CONNECTION_CLOSED`、代理 TLS 握手失败、网站出口 IP 限制属于另外的排查方向，不能靠这个 Canvas 补丁一并解决。新增的[代理与 TLS 排查记录](docs/network-troubleshooting.md)提供了域名/真实地址对照、结论边界，以及切换代理后确认重启生效的方法。
 
 ## 测试与目录
 

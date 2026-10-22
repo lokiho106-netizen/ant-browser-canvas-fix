@@ -46,7 +46,7 @@ Restoring reintroduces the original defect. Replacing or downloading the core ag
 
 See [the investigation notes](docs/findings.md). The pointer defect and instruction workaround were reported in [upstream issue #94](https://github.com/adryfish/fingerprint-chromium/issues/94), with a related Windows report in [#95](https://github.com/adryfish/fingerprint-chromium/issues/95). This repository packages the known workaround with integrity checks, backup/restore, documentation, and tests; it does not claim original discovery of the upstream defect.
 
-Proxy/TLS failures such as `ERR_CONNECTION_CLOSED` are separate issues.
+Proxy/TLS failures such as `ERR_CONNECTION_CLOSED` are separate issues. See the [proxy/TLS investigation](docs/network-troubleshooting.md#english-summary) for the domain-versus-IP comparison, limits of the findings, and how to confirm that a running instance actually picked up a proxy change.
 
 ```powershell
 python -m unittest discover -s tests -v
